@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+}
+
+/* Sticky-header, scrollable table shell used by both preview & results tables */
+.table-shell {
+  @apply relative max-h-[420px] overflow-auto rounded-xl border border-gray-200 dark:border-gray-800;
+}
+
+.table-shell table {
+  @apply w-full border-collapse text-sm;
+}
+
+.table-shell thead th {
+  @apply sticky top-0 z-10 whitespace-nowrap bg-gray-100 px-4 py-2 text-left font-semibold text-gray-700 dark:bg-gray-900 dark:text-gray-200;
+}
+
+.table-shell tbody td {
+  @apply whitespace-nowrap border-t border-gray-100 px-4 py-2 dark:border-gray-800;
+}
+
+.table-shell tbody tr:hover {
+  @apply bg-gray-50 dark:bg-gray-900/50;
+}
