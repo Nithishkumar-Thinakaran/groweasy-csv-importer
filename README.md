@@ -105,10 +105,3 @@ origin once you have it.
   "optional" database requirement; results are not persisted between runs.
 - No automated test suite yet — would add Jest/Vitest coverage for
   `sanitizeRecord`, `chunkArray`, and the CSV parser next.
-
-## Submission
-
-- Position applying for: **[Intern / Full-Time — update before sending]**
-- Hosted app URL: `<add after deploying to Vercel>`
-- GitHub repo URL: `<add after pushing to GitHub>`
-- Email to: `varun@groweasy.ai` before **12 July 2026**
